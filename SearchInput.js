@@ -43,8 +43,7 @@ export default class SearchInput extends React.Component {
                     style={styles.textInput}
                     clearButtonMode="always"
                     onChangeText={this.handleChangeText}
-                    onSubmitEditing={this.handleSubmitEditing}
-                />
+                    onSubmitEditing={this.handleSubmitEditing}/>
             </View>
         );
     }
